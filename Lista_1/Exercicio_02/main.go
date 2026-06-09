@@ -5,6 +5,8 @@ import (
 )
 
 /*Segunda questão da lista*/
+/*Exercício 2.
+Dado o slice []int{50, 23, 7, 88, 15, 42, 3, 66}, encontre e imprima o maior e o menor valor presentes.*/
 
 var list = []int{50, 23, 7, 88, 15, 42, 3, 66}
 var maiorNumero int = list[0]
