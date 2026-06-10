@@ -31,7 +31,9 @@ func main() {
 			listarProdutos()
 
 		} else if opcao == 3 {
-			fmt.Println("Opção 3")
+
+			qtdProdutosCadastrados()
+
 		} else if opcao == 0 {
 			fmt.Println("Saindo...")
 			break
@@ -65,4 +67,8 @@ func listarProdutos() {
 		fmt.Println(produto.Nome)
 		fmt.Println(produto.Preco)
 	}
+}
+
+func qtdProdutosCadastrados() {
+	fmt.Println(len(produtos))
 }
